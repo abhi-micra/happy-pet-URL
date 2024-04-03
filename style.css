@@ -31,7 +31,9 @@ ul {
     max-width: 100rem;
     padding: 3em 1.5em;
 }
-
+.w-full{
+    width:100%;
+}
 .main__heading {
     font-weight: 600;
     font-size: 2.25em;
@@ -186,6 +188,11 @@ ul {
     --lightness: 48.04%;
 }
 
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 .card__bullets {
     line-height: 1.4;
 }
